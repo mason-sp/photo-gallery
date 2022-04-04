@@ -1,0 +1,29 @@
+img {
+    width: 30%;
+    margin: calc(10%/6);
+    /* OR 
+    margin: 1.6666%; */
+    transition: all 0.8s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+nav {
+    text-transform: uppercase;
+    border-bottom: 2px solid #f1f1f1;
+    width: 30%;
+    margin-left: calc(10%/6);
+    padding: 20px 0;
+    font-family: Raleway, sans-serif;
+    font-size: 20px;
+}
+
+/* 30 + 30 + 30 = 90 
+
+left with 10% space
+
+there are 6 left and right sides to apply this to
+10 divide 6 = 1.6666 */
